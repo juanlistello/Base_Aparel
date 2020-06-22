@@ -37,17 +37,19 @@
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
-        <div class="form">
+        <form class="form" action="#">
           <input
             type="email"
             class="email"
             placeholder="Email Address"
             required
           />
+          <img src="./img/icon-error.svg" class="error-icon" alt="" />
           <button type="submit">
-            <img src="./img/icon-arrow.svg" alt="" />
+            <img src="./img/icon-arrow.svg" alt="submit" />
           </button>
-        </div>
+          <p class="error-text">Please, provide a valid email address</p>
+        </form>
       </section>
     </main>
   </body>
